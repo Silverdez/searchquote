@@ -1,0 +1,58 @@
+/* Global styles */
+::selection {
+	background: $pink;
+	color: white;
+  text-shadow: 0px 1px 1px rgba(black, 0.6);
+}
+
+::-moz-selection {
+	background: $pink;
+	color: white;
+  text-shadow: 0px 1px 1px rgba(black, 0.6);
+}
+
+html {
+	font-size: 62.5%;
+	@include box-sizing(border-box);
+}
+
+*, *:before, *:after {
+	@include box-sizing(inherit);
+}
+
+body {
+	@include font-default();
+  font-size: 1.5rem;
+  color: $light-grey;
+  background-color: #2c2c2c;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+	color:    $light-grey;
+    text-transform: uppercase;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color:    $light-grey;
+	opacity:  1;
+    text-transform: uppercase;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color:    $light-grey;
+	opacity:  1;
+    text-transform: uppercase;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color:    $light-grey;
+    text-transform: uppercase;
+}
+:placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+	color:    $light-grey;
+    text-transform: uppercase;
+}

@@ -1,0 +1,113 @@
+/* Front page */
+
+/* section form */
+#svg{
+  display: none;
+}
+.menu{
+  position: fixed;
+  display: block;
+  z-index: 120;
+  height: 40px;
+  width: 100%;
+  text-align: right;
+  padding: 6px 20px;
+  li{
+    display: inline-block;
+    margin-left: 6px;
+    a{
+      color: #fff;
+      display: inline-block;
+    }
+    .icon {
+      display: inline-block;
+      cursor: pointer;
+      width: 2em;
+      height: 2em;
+      fill: currentColor;
+    }
+  }
+
+
+}
+#frm, #contact {
+  position: relative;
+  z-index: 100;
+  display: table;
+  width: 100%;
+  height: 100vh;
+}
+.centrage {
+  display: table-cell;
+  vertical-align: middle;
+}
+#search_content{
+  position: relative;
+  input[type='text']{
+    height: 120px;
+    width: 100%;
+    padding: 6px 16px;
+    font-size: 36px;
+    outline:none;
+    border:none;
+    opacity:.75;
+  }
+  button{
+    color: $pink;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    outline:none;
+    border: none;
+    height: 120px;
+    width: 120px;
+    .icon {
+      display: inline-block;
+      width: 5em;
+      height: 5em;
+      fill: currentColor;
+    }
+  }
+}
+
+#quote{
+  width: 100%;
+  height: 60px;
+  background-color: #2c2c2c;
+  opacity:.85;
+  padding: 10px 16px;
+  text-align: right;
+  .quotation{
+    font-family: $font0;
+    color: #fff;
+    font-size: 23px;
+  }
+  .name{
+    color: #fff;
+    font-size: 18px;
+  }
+}
+
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+#contact{
+
+  h2{
+    color: #fff;
+    font-size: 23px;
+    height: 60px;
+    background-color: #2c2c2c;
+    opacity:.85;
+    padding: 0 16px;
+    text-align: right;
+    line-height: 60px;
+  }
+}
