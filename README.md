@@ -1,3 +1,7 @@
+# Angular search app
+this is a personal project for doing a search app on angular with quotation and google search engine
+
+
 # angular-seed — the seed for AngularJS apps
 
 This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.
