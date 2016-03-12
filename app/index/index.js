@@ -9,6 +9,11 @@ angular.module('myApp.index', ['ngRoute'])
   });
 }])
 
-.controller('IndexCtrl', [function() {
 
+.controller('IndexCtrl',  ['$scope', '$http',function($scope, $http) {
+    $scope.num = Math.round(Math.random()*10);
+    $http.get('datas/quotes.json').success(function(response){
+        $scope.myQuote = response;
+        console.log($scope.myQuote);
+;   });
 }]);
