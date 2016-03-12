@@ -90,12 +90,13 @@
   }
 }
 
-#bg {
+#fullbg {
   position: fixed;
   top: 0;
   left: 0;
   min-width: 100%;
   min-height: 100%;
+<<<<<<< HEAD
   height:100vh;
   img{
     position: fixed;
@@ -106,6 +107,8 @@
     -o-background-size: cover;
     background-size: cover;
   }
+=======
+>>>>>>> 119b211f7f7efb7b25fb2740379856937527e840
 }
 
 
