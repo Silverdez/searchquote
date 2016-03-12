@@ -50,7 +50,7 @@
 
       <div ng-view></div>
 
-    <div id="bg" ng-controller="bgCtrl">
+    <div id="bg" ng-init="tyswatch()" ng-controller="bgCtrl">
         <img ng-src="{{myQuote[num].image}}" id="fullbg" alt="">
         <!--<img back-img="img/184201193.jpg" id="fullbg" alt="">-->
     </div>
@@ -61,6 +61,7 @@
   -->
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/vibrant/dist/Vibrant.min.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="app.js"></script>
     <script src="index/index.js"></script>

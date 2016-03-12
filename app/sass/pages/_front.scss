@@ -74,7 +74,7 @@
 
 #quote{
   width: 100%;
-  height: 60px;
+  height: auto;
   background-color: #2c2c2c;
   opacity:.85;
   padding: 10px 16px;
@@ -85,6 +85,7 @@
     font-size: 23px;
   }
   .name{
+    padding: 16px 0 0 0;
     color: #fff;
     font-size: 18px;
   }
@@ -99,6 +100,8 @@
   //height:100vh;
   img{
     position: fixed;
+    min-height:100%;
+    height:100vh;
     background: no-repeat;
     background-position: center center;
     -webkit-background-size: cover;
@@ -122,3 +125,65 @@
     line-height: 60px;
   }
 }
+
+/* Part responsive */
+
+@media screen and (max-width: 768px) {
+
+  .menu{
+    height: 40px;
+    padding: 6px 8px;
+    li{
+      margin-left: 6px;
+      .icon {
+        width: 2em;
+        height: 2em;
+      }
+    }
+  }
+
+  #search_content{
+    input[type='text']{
+      height: 80px;
+      width: 100%;
+      padding: 6px 8px;
+      font-size: 22px;
+      border-radius: 0;
+    }
+    button{
+      height: 80px;
+      width: 80px;
+      .icon {
+        width: 3em;
+        height: 3em;
+      }
+    }
+  }
+
+  #fullbg {
+    img{
+      width: auto;
+      background: no-repeat;
+      background-position: center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+  }
+
+  #quote{
+    width: 100%;
+    height: auto;
+    padding: 6px 8px;
+    text-align: right;
+    .quotation{
+      font-size: 16px;
+    }
+    .name{
+      padding: 12px 0 0 0;
+      font-size: 12px;
+    }
+  }
+}
+

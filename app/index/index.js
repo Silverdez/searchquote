@@ -31,11 +31,15 @@ angular.module('myApp.index', ['ngRoute'])
 
 
 .controller('IndexCtrl',  ['$scope', '$http',function($scope, $http) {
-    $scope.num = Math.round(Math.random()*10);
+
+    var nb = 0;
+
     $http.get('datas/quotes.json').success(function(response){
         $scope.myQuote = response;
-    });
+        nb = $scope.myQuote.length;
 
+        $scope.num = Math.floor((Math.random() * nb) );//+ 1
+    });
 
 
     $scope.submitForm = function(event){
