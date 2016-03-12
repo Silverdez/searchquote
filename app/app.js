@@ -18,3 +18,10 @@ directive('backImg', function(){
     });
   };
 })
+.controller('bgCtrl',  ['$scope', '$http',function($scope, $http) {
+    $scope.num = Math.round(Math.random()*10);
+    $scope.numImg = 'img'+Math.round(Math.random()*2);
+    $http.get('datas/quotes.json').success(function(response){
+        $scope.myQuote = response;
+    });
+}]);

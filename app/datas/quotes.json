@@ -2,81 +2,52 @@
   {
     "author":"ISAAC ASIMOV",
     "quote":"People who think they know everything are a great annoyance to those of us who do.",
-    "images":{
-      "01":"",
-      "02":""
-    }
+    "image":"img/161777813.jpg"
+
   },
   {
     "author":"ELBERT HUBBARD",
     "quote":"Do not take life too seriously. You will never get out of it alive.",
-    "images":{
-      "01":"",
-      "02":""
-    }
+    "image":"img/161777813.jpg"
   },
   {
     "author":"OSCAR WILDE",
     "quote":"I can resist everything except temptation.",
-    "images":{
-      "01":"",
-      "02":""
-    }
+    "image":"img/161777813.jpg"
   },
   {
     "author":"RON WHITE",
     "quote":"I believe that if life gives you lemons, you should make lemonade... And try to find somebody whose life has given them vodka, and have a party.",
-    "images":{
-      "01":"",
-      "02":""
-    }
+    "image": "img/184201193.jpg"
   },
   {
     "author":"MARGARET MEAD",
     "quote":"Always remember that you are absolutely unique. Just like everyone else.",
-    "images":{
-      "01":"",
-      "02":""
-    }
+    "image":"img/184201193.jpg"
   },
   {
     "author":"ROBIN WILLIAMS",
     "quote":"I'm sorry, if you were right, I'd agree with you.",
-    "images":{
-      "01":"",
-      "02":""
-    }
+    "image":"img/161777813.jpg"
   },
   {
     "author":"MARK TWAIN",
     "quote":"Go to Heaven for the climate, Hell for the company.",
-    "images":{
-      "01":"",
-      "02":""
-    }
+    "image":"img/184201193.jpg"
   },
   {
     "author":"BENJAMIN FRANKLIN",
     "quote":"Wine is constant proof that God loves us and loves to see us happy. ",
-    "images":{
-      "01":"",
-      "02":""
-    }
+    "image":"img/184201193.jpg"
   },
   {
     "author":"LUIS BUNUEL",
     "quote":"Age is something that doesn't matter, unless you are a cheese.",
-    "images":{
-      "01":"",
-      "02":""
-    }
+    "image":"img/184201193.jpg"
   },
   {
     "author":"MORT SAHL",
     "quote":"My life needs editing.",
-    "images":{
-      "01":"",
-      "02":""
-    }
+    "image":"img/184201193.jpg"
   }
 ]
